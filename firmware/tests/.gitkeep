@@ -1,0 +1,2 @@
+# Host-side unit and property tests run via `pio test -e host_test`.
+# Uses Catch2 v3 + rapidcheck (see platformio.ini [env:host_test]).

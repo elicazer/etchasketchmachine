@@ -1,0 +1,2 @@
+# MotionPlanner, Bresenham coordinator, trapezoidal ramp generator, and the
+# 32-deep SPSC ring buffer live here. See Design §3.2.5 and §2.4.2.

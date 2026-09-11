@@ -1,0 +1,12 @@
+node_modules/
+dist/
+dist.gz/
+.vite/
+.cache/
+*.log
+.DS_Store
+
+# Playwright
+test-results/
+playwright-report/
+playwright/.cache/

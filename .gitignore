@@ -1,0 +1,38 @@
+# ── OS / editor ──────────────────────────────────────────────
+.DS_Store
+**/.DS_Store
+.idea/
+*.swp
+
+# ── Node / Vite (web) ────────────────────────────────────────
+node_modules/
+dist/
+.vite/
+*.local
+web/dist/
+web/node_modules/
+
+# ── Python (imagepath_service) ───────────────────────────────
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# ── Dev artifacts / local tooling output ─────────────────────
+.backups/
+graphify-out/
+tools/out/
+tools/imagepath_service/tools/out/
+
+# ── Local Kiro config — holds a personal access token ────────
+.kiro/settings/mcp.json
+
+# ── Stray media / scratch (not part of the project) ──────────
+EtchASketch.png
+Screenshot*.png
+*.jpg.jpeg
+/99ba69_*

@@ -1,0 +1,18 @@
+{
+  "enabled": true,
+  "name": "Web: typecheck on save",
+  "description": "Runs the web project's TypeScript typecheck (npm run lint) whenever a web source file is saved, so type errors surface immediately.",
+  "version": "1",
+  "when": {
+    "type": "fileEdited",
+    "patterns": [
+      "web/src/**/*.ts",
+      "web/src/**/*.tsx"
+    ]
+  },
+  "then": {
+    "type": "runCommand",
+    "command": "npm --prefix web run lint",
+    "timeout": 120
+  }
+}
